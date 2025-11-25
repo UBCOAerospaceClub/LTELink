@@ -11,7 +11,7 @@ LTELink is custom base board design for the Raxda CM3. It main purpose is to con
 * 1x Nano SIM card slot
 * 1x USB 2.0 hosts
 * 1x USB OTG interface with manual host/device control
-* 4x 100M etheret (unmanaged)
+* 4x 100M ethernet (unmanaged)
 * 1x Micro SD card slot
 * 2x UART connectors
 
