@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "474f8850-999e-4715-898e-1abf315ead05")
+	(paper "A4")
+	(title_block
+		(title "LTE Link")
+		(rev "v0.1")
+		(company "UBCO Aerospace")
+		(comment 1 "Author: Felix Perron")
+	)
+	(lib_symbols)
+)

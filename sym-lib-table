@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MINI-PCIE")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/1775862-2.kicad_sym")(options "")(descr ""))
+  (lib (name "RJ45")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/RJMG1S8008101BR.kicad_sym")(options "")(descr ""))
+  (lib (name "RK3528A")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/RK3528A.kicad_sym")(options "")(descr ""))
+  (lib (name "ETH-SWITCH")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/RTL8305NB-CG.kicad_sym")(options "")(descr ""))
+  (lib (name "EMMC")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/MKEMF032GT1E-C.kicad_sym")(options "")(descr ""))
+  (lib (name "LTELink")(type "KiCad")(uri "${KIPRJMOD}/libs/LTELink.kicad_sym")(options "")(descr ""))
+)

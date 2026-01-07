@@ -1,0 +1,265 @@
+(footprint "CM3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Raxda"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e98bafa-944c-4e3b-ab37-0feba1a57050")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Raxda CM3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dc4d1990-4f46-47bd-bee8-280599835d4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb7ba213-134d-49ee-8cd0-d48419ca2ceb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a13efd4-429a-4273-94e5-672f1936ff01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_bom dnp)
+	(fp_line
+		(start -27.6 16.55)
+		(end -27.6 -16.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c1a87c7-6cf2-49b0-8681-e6810a079753")
+	)
+	(fp_line
+		(start -24.1 20.05)
+		(end 23.9 20.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f90c8bd4-360f-440f-a5e3-f87bdf485a92")
+	)
+	(fp_line
+		(start 23.9 -20.05)
+		(end -24.1 -20.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "05cb9a02-6c47-4f58-a3db-2b20f24ef6fb")
+	)
+	(fp_line
+		(start 27.4 16.55)
+		(end 27.4 -16.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a4586682-e128-4484-9f24-14f1f146b9ba")
+	)
+	(fp_arc
+		(start -27.6 -16.55)
+		(mid -26.574874 -19.024874)
+		(end -24.1 -20.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65c856d5-1ba4-4378-ba2f-ad0f0c649d82")
+	)
+	(fp_arc
+		(start -24.1 20.05)
+		(mid -26.574874 19.024874)
+		(end -27.6 16.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3abee11d-40fe-4119-b00b-4a1d27f55463")
+	)
+	(fp_arc
+		(start 23.9 -20.05)
+		(mid 26.374874 -19.024874)
+		(end 27.4 -16.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2af5db15-e247-4304-8c99-3a6e2b0fc6c7")
+	)
+	(fp_arc
+		(start 27.4 16.55)
+		(mid 26.374874 19.024874)
+		(end 23.9 20.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8046284e-c07c-444e-afd6-861b2d0a53a7")
+	)
+	(fp_circle
+		(center -24.1 -16.55)
+		(end -24.1 -19.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f464ef31-afdb-45a2-9fef-5ee90e53be5d")
+	)
+	(fp_circle
+		(center -24.1 -16.55)
+		(end -22.8 -16.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d15a0f06-54fb-4ef7-a51b-84db6f3d8cf2")
+	)
+	(fp_circle
+		(center -24.1 16.55)
+		(end -24.1 13.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0779290d-3558-42ec-9fa1-2430436f0dfa")
+	)
+	(fp_circle
+		(center -24.1 16.55)
+		(end -22.8 16.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "52720b68-2e0b-4c31-b823-7191635e31bf")
+	)
+	(fp_circle
+		(center 23.9 -16.55)
+		(end 23.9 -19.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a2fcdaf8-5dcc-43c9-b97a-f7c910388c83")
+	)
+	(fp_circle
+		(center 23.9 -16.55)
+		(end 25.2 -16.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5c913e38-7bfd-484c-8b2c-73348a54b034")
+	)
+	(fp_circle
+		(center 23.9 16.55)
+		(end 23.9 13.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "11290b4b-aa93-488e-8915-06fecf9ff94f")
+	)
+	(fp_circle
+		(center 23.9 16.55)
+		(end 25.2 16.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "38963191-8df0-46bc-bf01-a00ce73f1de5")
+	)
+	(fp_text user "Radxa\nCompute Module 3"
+		(at -0.1 -0.05 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c30b8f1f-a6f9-4f83-8952-1545dfe0e199")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2138c7cb-cfdc-42ae-9fce-46c43bc1d10e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "/home/felix/Downloads/radxa_cm3_pcba_3d.stp/cm3_pcba_3d.stp"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

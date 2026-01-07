@@ -1,0 +1,8 @@
+VDD_0V9 0.9v LDO @ 300mA
+VCC_0V6_DRR 0.6v LDO @ 500mA (check with DDR specs)
+VDD_LOGIC 3.3v buck @ 2A (TPS65251#1)
+VDD_ARM 3.3v buck @ 2A (TPS65251#2)
+
+VCC_3V3 3.3v buck @ 2A (or @ 3A and combine with RTL8305) (TPS56320 SO CHEAP)
+VCC_DDR 1.1v buck @ 2A (TPS65251#3)
+VCC_1V8 1.8v LDO @ 1A
