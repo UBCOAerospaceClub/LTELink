@@ -262,7 +262,7 @@
 		(uuid "ffb5ae5a-b1f5-42b8-8f07-b1970748f621")
 	)
 	(sheet
-		(at 177.8 87.63)
+		(at 176.53 83.82)
 		(size 39.37 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -278,7 +278,7 @@
 		)
 		(uuid "1f51a8cf-4ed0-4d00-bcb9-e34ac73c8e7e")
 		(property "Sheetname" "uart"
-			(at 177.8 86.9184 0)
+			(at 176.53 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,7 +287,7 @@
 			)
 		)
 		(property "Sheetfile" "uart.kicad_sch"
-			(at 177.8 121.2346 0)
+			(at 176.53 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,8 +518,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 99.06)
-		(size 27.94 25.4)
+		(at 71.12 105.41)
+		(size 27.94 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -534,7 +534,7 @@
 		)
 		(uuid "9ae95502-5895-429a-9658-dcc355299464")
 		(property "Sheetname" "USB"
-			(at 71.12 98.3484 0)
+			(at 71.12 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)

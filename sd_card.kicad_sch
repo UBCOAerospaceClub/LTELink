@@ -1234,7 +1234,7 @@
 		(uuid "fa83a1dd-1720-4338-8237-707148e04029")
 	)
 	(label "SDMMC_CLK"
-		(at 189.23 88.9 180)
+		(at 189.23 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1244,27 +1244,27 @@
 		(uuid "086164a9-3960-4381-b9b2-408c926099d5")
 	)
 	(label "SDMMC_CMD"
-		(at 189.23 96.52 180)
+		(at 205.74 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "086164a9-3960-4381-b9b2-408c926099d6")
 	)
 	(label "SDMMC_D1"
-		(at 189.23 69.85 180)
+		(at 205.74 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "086164a9-3960-4381-b9b2-408c926099d7")
 	)
 	(label "SDMMC_D0"
-		(at 189.23 62.23 180)
+		(at 189.23 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1274,7 +1274,7 @@
 		(uuid "086164a9-3960-4381-b9b2-408c926099d8")
 	)
 	(label "SDMMC_CD"
-		(at 205.74 88.9 0)
+		(at 205.74 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1284,17 +1284,17 @@
 		(uuid "086164a9-3960-4381-b9b2-408c926099d9")
 	)
 	(label "SDMMC_D2"
-		(at 205.74 62.23 0)
+		(at 189.23 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "086164a9-3960-4381-b9b2-408c926099da")
 	)
 	(label "SDMMC_VDD"
-		(at 205.74 92.71 0)
+		(at 205.74 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1304,12 +1304,12 @@
 		(uuid "086164a9-3960-4381-b9b2-408c926099db")
 	)
 	(label "SDMMC_D3"
-		(at 205.74 69.85 0)
+		(at 189.23 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "086164a9-3960-4381-b9b2-408c926099dc")
 	)
@@ -1548,7 +1548,7 @@
 		(at 134.62 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -1988,7 +1988,7 @@
 		(at 195.58 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2067,7 +2067,7 @@
 		(at 195.58 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)

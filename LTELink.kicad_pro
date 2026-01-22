@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -232,6 +232,10 @@
         {
           "diameter": 0.35,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -546,8 +550,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "/home/felix/Downloads/",
+      "pos_files": "/home/felix/Downloads/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

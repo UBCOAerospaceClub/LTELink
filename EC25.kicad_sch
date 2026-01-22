@@ -435,6 +435,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LTELink:GREEN LED"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at -4.318 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "KT-0805G"
+				(at -4.318 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "KT0805G"
+				(at 21.082 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8639582106239348736"
+				(at -14.224 -9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Emerald Green 0805 LED Indication 100 mW 60 mA 5 V -40C ~ + 85C - Discrete ROHS,Package ( L/W/H ) : 2.0*1.25*0.85 mm"
+				(at -3.81 23.876 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "GREEN LED"
+				(at 1.016 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GREEN LED_0_0"
+				(polyline
+					(pts
+						(xy -0.762 3.302) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.429) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.381 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.032) (xy 0.381 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GREEN LED_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LTELink:LM29300T-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4358,6 +4570,18 @@
 		)
 	)
 	(rectangle
+		(start 229.87 69.85)
+		(end 273.05 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 046a51c2-7817-4975-9dc5-8e48032564ca)
+	)
+	(rectangle
 		(start 156.21 29.21)
 		(end 209.55 55.88)
 		(stroke
@@ -4424,6 +4648,16 @@
 			)
 		)
 		(uuid "3389ed22-df0d-4c72-84e5-ab3fad61ca6f")
+	)
+	(text "3.3V Power"
+		(exclude_from_sim no)
+		(at 260.35 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8782e5a9-7b4c-49c7-9c18-8aaea50ea162")
 	)
 	(text "Place close to SIM1"
 		(exclude_from_sim no)
@@ -4719,6 +4953,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 50.8) (xy 95.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a389aa-7814-420b-96e2-c3c9ddfa9693")
+	)
+	(wire
+		(pts
 			(xy 104.14 128.27) (xy 104.14 130.81)
 		)
 		(stroke
@@ -4739,7 +4983,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 45.72) (xy 123.19 45.72)
+			(xy 109.22 45.72) (xy 133.35 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4829,16 +5073,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 133.35 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47956890-9647-49dc-9d1e-0a23a93fc38a")
-	)
-	(wire
-		(pts
 			(xy 104.14 120.65) (xy 104.14 123.19)
 		)
 		(stroke
@@ -4856,16 +5090,6 @@
 			(type default)
 		)
 		(uuid "55af34c1-05e3-44c2-aadc-194dfc62af73")
-	)
-	(wire
-		(pts
-			(xy 83.82 50.8) (xy 85.09 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5831889e-57ed-4bea-b705-e534df0a58d8")
 	)
 	(wire
 		(pts
@@ -5049,7 +5273,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 48.26) (xy 83.82 48.26)
+			(xy 83.82 48.26) (xy 116.84 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5076,16 +5300,6 @@
 			(type default)
 		)
 		(uuid "c29c6a39-b14d-4557-abd3-caec450f7736")
-	)
-	(wire
-		(pts
-			(xy 116.84 48.26) (xy 113.03 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c65ebccd-96dd-4040-a00a-086386ef68a8")
 	)
 	(wire
 		(pts
@@ -5159,16 +5373,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 50.8) (xy 95.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6198988-4cdd-4c78-8466-954e8878a835")
-	)
-	(wire
-		(pts
 			(xy 48.26 113.03) (xy 48.26 115.57)
 		)
 		(stroke
@@ -5176,6 +5380,16 @@
 			(type default)
 		)
 		(uuid "dc5dba09-68a4-4d82-b46a-1117182960df")
+	)
+	(wire
+		(pts
+			(xy 255.27 81.28) (xy 266.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e284f838-7114-416a-b910-69bbc982d396")
 	)
 	(wire
 		(pts
@@ -5529,10 +5743,10 @@
 		(lib_id "Device:R")
 		(at 151.13 104.14 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "072527e3-4f93-449b-8f54-b1ef3bd1c58f")
 		(property "Reference" "R17"
 			(at 151.13 101.854 90)
@@ -5662,7 +5876,7 @@
 		(at 76.2 184.15 0)
 		(unit 2)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5677,7 +5891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1775862-2"
+		(property "Value" "1759547-1"
 			(at 122.936 205.994 90)
 			(effects
 				(font
@@ -5687,7 +5901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LTELink:TE_1775862-2"
+		(property "Footprint" "LTELink:TE_1759547-1"
 			(at 76.2 184.15 0)
 			(effects
 				(font
@@ -5894,10 +6108,10 @@
 		(lib_id "power:+5V")
 		(at 147.32 123.19 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0ccb92ea-3bd5-4b2f-ac86-4e30db543f72")
 		(property "Reference" "#PWR21"
@@ -5951,6 +6165,72 @@
 			(project ""
 				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
 					(reference "#PWR21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "124214dc-c49f-43e3-8081-d51488086cb9")
+		(property "Reference" "#PWR074"
+			(at 266.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5abb077b-d9d5-4846-844f-e45d99dc169d")
+		)
+		(instances
+			(project "LTELink"
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6159,73 +6439,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 88.9 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2db4a8a8-3bcb-416f-b86c-9d9da00ff320")
-		(property "Reference" "R19"
-			(at 88.9 52.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 88.9 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 49.022 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d55a90f-ed04-4463-b9ba-61b8bd9b4d80")
-		)
-		(pin "1"
-			(uuid "584d39b9-00cf-445e-abd8-e2d10b8fea4b")
-		)
-		(instances
-			(project ""
-				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 229.87 127 0)
 		(unit 1)
@@ -6304,7 +6517,7 @@
 		(at 181.61 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -6518,10 +6731,10 @@
 		(lib_id "power:+3.3V")
 		(at 171.45 96.52 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4661f6e6-f365-4776-9705-71e11d2b1ef0")
 		(property "Reference" "#PWR7"
@@ -6646,80 +6859,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 127 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b95c864-67b0-4ea7-a08e-12035be9f214")
-		(property "Reference" "R21"
-			(at 127 47.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 127 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e3675bf-3b5b-4896-8194-a0b5d1370901")
-		)
-		(pin "1"
-			(uuid "66007e7b-ef81-48c5-aea0-06a219455c1d")
-		)
-		(instances
-			(project "LTE_Board"
-				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 182.88 124.46 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4ce62af8-5823-4198-a67a-ed442972b808")
 		(property "Reference" "#PWR5"
@@ -6783,7 +6929,7 @@
 		(at 74.93 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -6955,10 +7101,10 @@
 		(lib_id "LTELink:RED LED")
 		(at 163.83 123.19 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "5c63cba8-582d-41cc-896d-d2c51573f8fc")
 		(property "Reference" "LED7"
 			(at 167.64 132.588 0)
@@ -7034,10 +7180,10 @@
 		(lib_id "Device:R")
 		(at 171.45 100.33 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "5f7fed83-dccf-4bec-bbdb-b11aeac98261")
 		(property "Reference" "R1"
 			(at 174.752 99.314 0)
@@ -7101,10 +7247,10 @@
 		(lib_id "Device:R")
 		(at 154.94 123.19 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "82ef5c33-649c-4e9d-87ee-b29b52c0a765")
 		(property "Reference" "R18"
 			(at 154.94 121.158 90)
@@ -7306,7 +7452,7 @@
 		(at 76.2 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -7321,7 +7467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1775862-2"
+		(property "Value" "1759547-1"
 			(at 122.936 125.984 90)
 			(effects
 				(font
@@ -7331,7 +7477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LTELink:TE_1775862-2"
+		(property "Footprint" "LTELink:TE_1759547-1"
 			(at 76.2 104.14 0)
 			(effects
 				(font
@@ -7341,7 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588904760061120512"
+		(property "Datasheet" ""
 			(at 76.2 104.14 0)
 			(effects
 				(font
@@ -7538,13 +7684,92 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 158.75 111.76 0)
+		(lib_id "LTELink:GREEN LED")
+		(at 266.7 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "8ca48c61-f6f6-4fef-9b37-c593eb304933")
+		(property "Reference" "LED2"
+			(at 270.256 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "KT-0805G"
+			(at 259.588 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 270.51 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8639582106239348736"
+			(at 276.352 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Emerald Green 0805 LED Indication 100 mW 60 mA 5 V -40C ~ + 85C - Discrete ROHS,Package ( L/W/H ) : 2.0*1.25*0.85 mm"
+			(at 242.824 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "GREEN LED"
+			(at 261.366 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dbb9c323-625f-4b52-b941-94ee0b960e28")
+		)
+		(pin "1"
+			(uuid "f3ca5e6f-ab17-4e26-9e4b-d15f39610608")
+		)
+		(instances
+			(project "LTELink"
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 111.76 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8cf8020a-d78e-4441-a3d6-da1ce09e345a")
 		(property "Reference" "#PWR1"
@@ -8019,10 +8244,10 @@
 		(lib_id "LTELink:PMOS")
 		(at 171.45 115.57 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "9cf478f9-fa4a-4612-a3a3-d2d96be440db")
 		(property "Reference" "Q2"
 			(at 174.244 127.508 90)
@@ -8296,10 +8521,10 @@
 		(lib_id "Device:C")
 		(at 158.75 107.95 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c09bdd4b-b011-41b7-a5ef-ae3032c86a57")
 		(property "Reference" "C40"
@@ -8379,7 +8604,7 @@
 				)
 			)
 		)
-		(property "Value" "820"
+		(property "Value" "1k"
 			(at 149.86 177.8 90)
 			(effects
 				(font
@@ -8424,73 +8649,6 @@
 			(project ""
 				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 109.22 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb2e80f3-e6cd-4a92-8860-c35c65e4efd7")
-		(property "Reference" "R20"
-			(at 109.22 50.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 109.22 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 109.22 46.482 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d6570e05-e5cf-47c3-b322-1ba4429234a6")
-		)
-		(pin "1"
-			(uuid "e6b73464-54be-42a0-8000-ae1c99ac5a68")
-		)
-		(instances
-			(project "LTE_Board"
-				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8631,6 +8789,73 @@
 			(project "LTE_Board"
 				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 266.7 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f301cd3a-a0de-41fc-986b-8d41815d1ec5")
+		(property "Reference" "R5"
+			(at 269.494 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510"
+			(at 266.7 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 268.478 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d53f034-ee45-49ba-84c6-90fb0bb8d938")
+		)
+		(pin "1"
+			(uuid "28d9bf91-36b8-4e1e-89a4-63a9fba3bccc")
+		)
+		(instances
+			(project "LTELink"
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
+					(reference "R5")
 					(unit 1)
 				)
 			)
