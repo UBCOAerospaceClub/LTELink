@@ -4581,12 +4581,6 @@
 		(uuid "a5aa05ad-1135-4584-bd5e-34c362675a3a")
 	)
 	(junction
-		(at 71.12 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a69d5d57-5904-478b-995e-2d41de221b8f")
-	)
-	(junction
 		(at 166.37 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5228,6 +5222,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 162.56) (xy 71.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67713329-42f7-4399-b675-73ef728c48ef")
+	)
+	(wire
+		(pts
 			(xy 398.78 99.06) (xy 398.78 96.52)
 		)
 		(stroke
@@ -5378,16 +5382,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 154.94) (xy 71.12 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a16496a-4a45-4175-976c-58e2a707a3c2")
-	)
-	(wire
-		(pts
 			(xy 316.23 96.52) (xy 314.96 96.52)
 		)
 		(stroke
@@ -5415,6 +5409,16 @@
 			(type default)
 		)
 		(uuid "8e8af6c4-094b-4bc4-87f1-1bec7a5bf691")
+	)
+	(wire
+		(pts
+			(xy 71.12 157.48) (xy 71.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b9972c-cf97-4b83-893a-e999def19728")
 	)
 	(wire
 		(pts
@@ -5638,7 +5642,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 154.94) (xy 71.12 154.94)
+			(xy 68.58 157.48) (xy 71.12 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6048,7 +6052,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 162.56) (xy 63.5 154.94)
+			(xy 68.58 162.56) (xy 68.58 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6547,7 +6551,7 @@
 		(uuid "826022ad-324f-4eee-ac85-b96ba66f0b4e")
 	)
 	(label "1VOUT"
-		(at 63.5 162.56 180)
+		(at 68.58 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7787,74 +7791,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 67.31 162.56 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fdfc617-e448-4b01-bcd8-55bf81ecc76a")
-		(property "Reference" "R14"
-			(at 67.564 160.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 67.31 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 67.31 160.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c089b75b-1776-4de4-b180-e4f0895303f2")
-		)
-		(pin "1"
-			(uuid "b75cc4fa-0bd9-4e15-9699-075e6d6f8845")
-		)
-		(instances
-			(project ""
-				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/76b1a870-e345-41cc-887f-c3b81be4cbe1"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 166.37 107.95 0)
 		(unit 1)
@@ -8565,15 +8501,15 @@
 	(symbol
 		(lib_id "LTELink:FERRITE")
 		(at 161.29 255.27 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4234efd8-513e-444e-8e38-d789a211d0f5")
 		(property "Reference" "FB5"
-			(at 166.37 247.6499 0)
+			(at 156.21 247.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8582,7 +8518,7 @@
 			)
 		)
 		(property "Value" "BLM18PG121SN1D"
-			(at 166.37 250.1899 0)
+			(at 156.21 250.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +8527,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 177.8 350.19 0)
+			(at 144.78 350.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8601,7 +8537,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588900229559300096"
-			(at 177.8 450.19 0)
+			(at 144.78 450.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8556,7 @@
 			)
 		)
 		(property "Name" "FERRITE"
-			(at 166.37 252.7299 0)
+			(at 156.21 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
