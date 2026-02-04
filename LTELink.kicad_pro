@@ -553,7 +553,7 @@
       "plot": "/home/felix/Downloads/",
       "pos_files": "/home/felix/Downloads/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LTELink.glb",
       "svg": "",
       "vrml": ""
     },

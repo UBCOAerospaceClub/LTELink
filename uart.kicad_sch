@@ -520,7 +520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0266b201-dfc4-471a-982d-2b3c0d7495ac")
-		(property "Reference" "TP3"
+		(property "Reference" "RX7"
 			(at 119.38 87.6299 90)
 			(effects
 				(font
@@ -571,7 +571,7 @@
 		(instances
 			(project "LTELink"
 				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/1f51a8cf-4ed0-4d00-bcb9-e34ac73c8e7e"
-					(reference "TP3")
+					(reference "RX7")
 					(unit 1)
 				)
 			)
@@ -660,7 +660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c684dfc-bba0-4928-bc02-4507ffb1af59")
-		(property "Reference" "TP1"
+		(property "Reference" "RX3"
 			(at 119.38 74.9299 90)
 			(effects
 				(font
@@ -711,7 +711,7 @@
 		(instances
 			(project ""
 				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/1f51a8cf-4ed0-4d00-bcb9-e34ac73c8e7e"
-					(reference "TP1")
+					(reference "RX3")
 					(unit 1)
 				)
 			)
@@ -793,7 +793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1127a83-592a-4dc1-8f28-9e6ee0491b21")
-		(property "Reference" "TP2"
+		(property "Reference" "TX3"
 			(at 119.38 80.0099 90)
 			(effects
 				(font
@@ -844,7 +844,7 @@
 		(instances
 			(project "LTELink"
 				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/1f51a8cf-4ed0-4d00-bcb9-e34ac73c8e7e"
-					(reference "TP2")
+					(reference "TX3")
 					(unit 1)
 				)
 			)
@@ -860,7 +860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec2fdd4f-b228-4066-ba14-15e80ad722a6")
-		(property "Reference" "TP4"
+		(property "Reference" "TX7"
 			(at 119.38 92.7099 90)
 			(effects
 				(font
@@ -911,7 +911,7 @@
 		(instances
 			(project "LTELink"
 				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/1f51a8cf-4ed0-4d00-bcb9-e34ac73c8e7e"
-					(reference "TP4")
+					(reference "TX7")
 					(unit 1)
 				)
 			)
