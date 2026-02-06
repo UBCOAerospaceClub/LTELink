@@ -4570,7 +4570,7 @@
 		)
 	)
 	(rectangle
-		(start 229.87 69.85)
+		(start 220.98 69.85)
 		(end 273.05 104.14)
 		(stroke
 			(width 0)
@@ -4778,6 +4778,12 @@
 		(uuid "7d3b2707-71cc-4ef9-ab20-ac4acd8f4d3f")
 	)
 	(junction
+		(at 229.87 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97bd2ffc-3d31-43e8-9518-52634d1aec46")
+	)
+	(junction
 		(at 104.14 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4800,6 +4806,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c37609e5-06d8-46eb-bfc8-c3e8ac81d2b9")
+	)
+	(junction
+		(at 229.87 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6dce547-c869-4c19-b606-4cc246af4547")
 	)
 	(junction
 		(at 66.04 44.45)
@@ -4852,6 +4864,10 @@
 	(no_connect
 		(at 48.26 175.26)
 		(uuid "1c674192-be3e-4dc1-9a84-2d3c7db7bf18")
+	)
+	(no_connect
+		(at 224.79 127)
+		(uuid "317205f8-6e47-449b-865e-69b6360bc387")
 	)
 	(no_connect
 		(at 48.26 177.8)
@@ -5083,6 +5099,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 85.09) (xy 233.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e531f46-539c-442f-b31e-c9a5e56cae23")
+	)
+	(wire
+		(pts
 			(xy 158.75 104.14) (xy 171.45 104.14)
 		)
 		(stroke
@@ -5090,6 +5116,16 @@
 			(type default)
 		)
 		(uuid "55af34c1-05e3-44c2-aadc-194dfc62af73")
+	)
+	(wire
+		(pts
+			(xy 229.87 85.09) (xy 233.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5edfeedb-db0b-4658-9d07-0c26416a016e")
 	)
 	(wire
 		(pts
@@ -5233,6 +5269,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 77.47) (xy 229.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c56fec2-c78e-4144-9ce4-a6b3492be528")
+	)
+	(wire
+		(pts
 			(xy 109.22 45.72) (xy 109.22 39.37)
 		)
 		(stroke
@@ -5240,6 +5286,16 @@
 			(type default)
 		)
 		(uuid "9ebcf1ba-791c-4c7a-8ce8-bcd5cdd41c10")
+	)
+	(wire
+		(pts
+			(xy 233.68 80.01) (xy 233.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28e968c-a129-4984-81f5-1ef0b225769d")
 	)
 	(wire
 		(pts
@@ -6795,7 +6851,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 82.55 0)
+		(at 229.87 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6803,7 +6859,7 @@
 		(dnp no)
 		(uuid "4b571164-d8ff-4265-87a4-e91e2a8943d1")
 		(property "Reference" "#PWR069"
-			(at 233.68 88.9 0)
+			(at 229.87 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +6868,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 86.36 0)
+			(at 229.87 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +6876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 82.55 0)
+			(at 229.87 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 82.55 0)
+			(at 229.87 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6894,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 82.55 0)
+			(at 229.87 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,6 +7294,84 @@
 			(project ""
 				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 229.87 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81f1e3c4-9b00-47d5-b80c-4c2396c2da09")
+		(property "Reference" "C13"
+			(at 222.504 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 222.504 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 230.8352 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10A106KP8NNNC"
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3dfc05ac-dc40-4c93-8398-ec5717fb9735")
+		)
+		(pin "1"
+			(uuid "aa160a21-260c-46ec-b44f-1e28c2c2ffe3")
+		)
+		(instances
+			(project "LTELink"
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/b24baf21-5816-49e9-9ae3-74bfac20cf13"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9007,7 +9141,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 233.68 80.01 0)
+		(at 229.87 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9016,7 +9150,7 @@
 		(fields_autoplaced yes)
 		(uuid "fed2b1d2-65e0-42cf-9202-15a385cec5d7")
 		(property "Reference" "#PWR068"
-			(at 233.68 83.82 0)
+			(at 229.87 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9159,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 233.68 74.93 0)
+			(at 229.87 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +9167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 80.01 0)
+			(at 229.87 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +9176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 80.01 0)
+			(at 229.87 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +9185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 233.68 80.01 0)
+			(at 229.87 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

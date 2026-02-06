@@ -11195,7 +11195,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "LM29300T-3.3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11221,7 +11221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3V LDO"
 			(at 0 0 0)
 			(effects
 				(font

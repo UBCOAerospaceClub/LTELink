@@ -4413,16 +4413,40 @@
 		(uuid "fd4555e8-f8f7-43dc-ade1-3f555656e56c")
 	)
 	(junction
+		(at 157.48 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06bb1479-9e03-4a02-810d-88f4964e90e1")
+	)
+	(junction
 		(at 101.6 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a3920fa-6efa-4f66-9140-684c77a3f787")
 	)
 	(junction
+		(at 157.48 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b1f4c72-0b48-4b31-bc68-85ed15fd8300")
+	)
+	(junction
+		(at 165.1 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f3af359-3e34-4374-9089-84e268602d88")
+	)
+	(junction
 		(at 195.58 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d110162-8ed1-481d-a82c-8a7bc95f8803")
+	)
+	(junction
+		(at 165.1 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "218cae8b-4eaa-42e4-af04-9001c260a102")
 	)
 	(junction
 		(at 316.23 165.1)
@@ -4503,6 +4527,18 @@
 		(uuid "5ea40dc0-a719-444c-ab82-f4daf94cfbc3")
 	)
 	(junction
+		(at 157.48 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "642e0d4b-85d4-4675-aeae-d8e54a77ae56")
+	)
+	(junction
+		(at 165.1 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b12192c-b030-4f9c-be9d-dc2d67a9c9c8")
+	)
+	(junction
 		(at 184.15 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4519,6 +4555,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7799a657-b4c5-444e-8dfa-aacb60b0e5db")
+	)
+	(junction
+		(at 165.1 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "783fc8de-6384-4576-af32-805f0fdbecc0")
 	)
 	(junction
 		(at 166.37 138.43)
@@ -4567,6 +4609,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e37fafd-d9df-4e4f-b965-5d6cab5365af")
+	)
+	(junction
+		(at 165.1 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ed6fb36-db5a-4d9f-84a1-d4dd5e3e4a9e")
 	)
 	(junction
 		(at 177.8 138.43)
@@ -4647,6 +4695,12 @@
 		(uuid "ea14d306-29bf-460d-b548-c085dab11067")
 	)
 	(junction
+		(at 157.48 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea23dc19-a268-47d2-8b20-5f78a730d880")
+	)
+	(junction
 		(at 251.46 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4657,6 +4711,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0e3d048-c61a-4934-90d6-efd2b0d23f73")
+	)
+	(junction
+		(at 157.48 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0edfef2-7685-4a8e-a2a6-f28e9f7293b6")
 	)
 	(junction
 		(at 172.72 194.31)
@@ -4693,8 +4753,16 @@
 		(uuid "0775770a-90d4-4c67-987f-6da46cb09839")
 	)
 	(no_connect
+		(at 71.12 182.88)
+		(uuid "0cacdda1-2558-4c7f-b39e-d145ba812578")
+	)
+	(no_connect
 		(at 264.16 99.06)
 		(uuid "1e9277f7-00dc-4bf6-989c-8c168464d3f4")
+	)
+	(no_connect
+		(at 269.24 232.41)
+		(uuid "46095740-3f6c-4133-af35-ea2a08230779")
 	)
 	(no_connect
 		(at 264.16 147.32)
@@ -4703,6 +4771,10 @@
 	(no_connect
 		(at 346.71 81.28)
 		(uuid "504c9627-4d8c-4a38-80fc-60ca0e9229b2")
+	)
+	(no_connect
+		(at 71.12 180.34)
+		(uuid "5c191ff0-3f10-4482-bb8c-d0a82bda9611")
 	)
 	(no_connect
 		(at 346.71 167.64)
@@ -4715,6 +4787,14 @@
 	(no_connect
 		(at 264.16 81.28)
 		(uuid "849cafa2-c403-4ff7-b1e8-6725f6ecdf18")
+	)
+	(no_connect
+		(at 312.42 232.41)
+		(uuid "998f116d-f241-4351-af8f-53b0387ba27e")
+	)
+	(no_connect
+		(at 312.42 204.47)
+		(uuid "9f65ab1d-6d2b-4fe2-904d-0229811509a0")
 	)
 	(no_connect
 		(at 346.71 101.6)
@@ -4733,6 +4813,10 @@
 		(uuid "cacd4368-0a87-428e-a692-ee12f6086eb1")
 	)
 	(no_connect
+		(at 271.78 204.47)
+		(uuid "ce09e015-43ce-4db9-857d-5559f8e335be")
+	)
+	(no_connect
 		(at 264.16 165.1)
 		(uuid "dc11700d-4d77-4d2c-a532-52f08cd067d6")
 	)
@@ -4742,7 +4826,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 260.35) (xy 160.02 260.35)
+			(xy 153.67 260.35) (xy 157.48 260.35)
 		)
 		(stroke
 			(width 0)
@@ -4832,6 +4916,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 226.06) (xy 160.02 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f79da7-6e6c-411a-968f-679d2e37c9d5")
+	)
+	(wire
+		(pts
 			(xy 184.15 194.31) (xy 195.58 194.31)
 		)
 		(stroke
@@ -4852,7 +4946,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 104.14) (xy 160.02 104.14)
+			(xy 153.67 104.14) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4999,6 +5093,16 @@
 			(type default)
 		)
 		(uuid "344b2d8a-cdda-4e23-a575-1be6242b0957")
+	)
+	(wire
+		(pts
+			(xy 165.1 260.35) (xy 166.37 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3462a678-91f8-4061-a1a2-cf83fb143ca4")
 	)
 	(wire
 		(pts
@@ -5262,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 226.06) (xy 166.37 226.06)
+			(xy 162.56 226.06) (xy 165.1 226.06)
 		)
 		(stroke
 			(width 0)
@@ -5372,7 +5476,27 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 226.06) (xy 160.02 226.06)
+			(xy 165.1 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fe7bca-310d-4b4c-85a8-55d054e2f3be")
+	)
+	(wire
+		(pts
+			(xy 157.48 260.35) (xy 160.02 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88516650-b911-4eb4-bd68-c1ce832c35a0")
+	)
+	(wire
+		(pts
+			(xy 153.67 226.06) (xy 157.48 226.06)
 		)
 		(stroke
 			(width 0)
@@ -5482,6 +5606,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 138.43) (xy 160.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993f6f4f-54dd-4cc1-950c-54ced924ca8e")
+	)
+	(wire
+		(pts
+			(xy 165.1 172.72) (xy 166.37 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99580f14-98cb-4f13-b516-f6ac84da2795")
+	)
+	(wire
+		(pts
 			(xy 177.8 138.43) (xy 189.23 138.43)
 		)
 		(stroke
@@ -5522,13 +5666,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 260.35) (xy 166.37 260.35)
+			(xy 162.56 260.35) (xy 165.1 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a6ababcb-2e01-4f22-9421-1e5b69f4081b")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9113893-e048-41f0-884f-665ed9208084")
 	)
 	(wire
 		(pts
@@ -5552,7 +5706,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 104.14) (xy 166.37 104.14)
+			(xy 162.56 104.14) (xy 165.1 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5692,7 +5846,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 138.43) (xy 166.37 138.43)
+			(xy 162.56 138.43) (xy 165.1 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5719,6 +5873,16 @@
 			(type default)
 		)
 		(uuid "cd1a2364-3941-423d-9ea4-30b15201ae51")
+	)
+	(wire
+		(pts
+			(xy 157.48 172.72) (xy 160.02 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf37fb11-a4ec-4fde-8795-30ac86fbcaaf")
 	)
 	(wire
 		(pts
@@ -5772,7 +5936,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 138.43) (xy 160.02 138.43)
+			(xy 165.1 226.06) (xy 166.37 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1bac130-2ba4-4903-a4f8-ce1fb4156a02")
+	)
+	(wire
+		(pts
+			(xy 153.67 138.43) (xy 157.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5792,7 +5966,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 172.72) (xy 160.02 172.72)
+			(xy 153.67 172.72) (xy 157.48 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6062,7 +6236,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 172.72) (xy 166.37 172.72)
+			(xy 162.56 172.72) (xy 165.1 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6089,6 +6263,16 @@
 			(type default)
 		)
 		(uuid "fb454956-06af-4e6f-af87-8c321eb8569d")
+	)
+	(wire
+		(pts
+			(xy 165.1 138.43) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6a0640-15fa-44b9-b7ae-9f6d6ea46b30")
 	)
 	(wire
 		(pts
@@ -7003,6 +7187,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 161.29 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0212ac55-6c7e-4985-bc93-406809482874")
+		(property "Reference" "R4"
+			(at 161.29 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 161.29 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0349a803-323b-4bf8-bcd8-78d9762ff7fe")
+		)
+		(pin "2"
+			(uuid "a659cd4a-7439-476c-b72a-c668d318d7c2")
+		)
+		(instances
+			(project ""
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/76b1a870-e345-41cc-887f-c3b81be4cbe1"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 217.17 0)
 		(unit 1)
@@ -7198,6 +7450,74 @@
 			(project "LTELink"
 				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/76b1a870-e345-41cc-887f-c3b81be4cbe1"
 					(reference "#PWR41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c59e0b5-8656-401a-99c6-eee62ef81de0")
+		(property "Reference" "R12"
+			(at 161.29 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 161.29 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 174.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa0bcc22-54b3-4910-9dd1-45132d03e25e")
+		)
+		(pin "2"
+			(uuid "776af471-4e89-4fc2-8331-20d8a0fb1279")
+		)
+		(instances
+			(project "LTELink"
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/76b1a870-e345-41cc-887f-c3b81be4cbe1"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8504,9 +8824,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "4234efd8-513e-444e-8e38-d789a211d0f5")
 		(property "Reference" "FB5"
 			(at 156.21 247.6499 0)
@@ -9819,6 +10139,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 161.29 226.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c2e156e-3678-456c-b51d-943ff0f3b65b")
+		(property "Reference" "R14"
+			(at 161.29 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 161.29 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 227.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe1c969f-dedd-4377-9309-613ed8474ba5")
+		)
+		(pin "2"
+			(uuid "5cb06f71-dff7-4fd0-994e-89bf28cd552f")
+		)
+		(instances
+			(project "LTELink"
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/76b1a870-e345-41cc-887f-c3b81be4cbe1"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 172.72 107.95 0)
 		(unit 1)
@@ -10165,9 +10553,9 @@
 		(at 161.29 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "76104213-1561-401c-959e-ee8faabd5b9a")
 		(property "Reference" "FB3"
@@ -11362,9 +11750,9 @@
 		(at 161.29 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b4d7292f-0bb5-4b3c-b1a4-12d1ae9916ac")
 		(property "Reference" "FB2"
@@ -12251,6 +12639,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 161.29 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da527b46-cd73-4281-842a-d56c78f02860")
+		(property "Reference" "R19"
+			(at 161.29 254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 161.29 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 262.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f23545a2-8545-4e30-b6c7-61b58c269522")
+		)
+		(pin "2"
+			(uuid "1e538727-474b-4386-ad3a-3e45a07dfa93")
+		)
+		(instances
+			(project "LTELink"
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/76b1a870-e345-41cc-887f-c3b81be4cbe1"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 260.35 95.25 0)
 		(unit 1)
@@ -12449,13 +12905,81 @@
 		)
 	)
 	(symbol
-		(lib_id "LTELink:FERRITE")
-		(at 161.29 220.98 0)
+		(lib_id "Device:R")
+		(at 161.29 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2f78065-6350-4a34-a3d1-494d809b38ed")
+		(property "Reference" "R11"
+			(at 161.29 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 161.29 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50adf21a-7f12-4aac-9a37-2ab426e40e8c")
+		)
+		(pin "2"
+			(uuid "f21cc9e9-cf95-46ce-a18c-84b388e69a41")
+		)
+		(instances
+			(project "LTELink"
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e/76b1a870-e345-41cc-887f-c3b81be4cbe1"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LTELink:FERRITE")
+		(at 161.29 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ea76fa8d-6b00-4986-9a23-58e31e00ef4a")
 		(property "Reference" "FB4"
@@ -12534,9 +13058,9 @@
 		(at 161.29 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ea9f0eb2-a36a-40fe-900e-aa9c08f8af5b")
 		(property "Reference" "FB1"
