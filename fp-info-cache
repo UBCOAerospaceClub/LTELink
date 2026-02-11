@@ -1,4 +1,4 @@
-27133645292750059
+27172488254689632
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61774,13 +61774,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-EC25AFA_MINIPCIE
-XCVR_EC25AFA-MINIPCIE
-
-
-0
-132
-132
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -71422,6 +71415,13 @@ CM3
 1
 LTELink
 DF40HC(3.0)-100DS-0.4V(51)
+DF40HC(3.0)-100DS-0.4V(51)
+Connector
+0
+100
+100
+LTELink
+DF40HC(3.0)-100DS-0.4V(51)_mirrored
 DF40HC(3.0)-100DS-0.4V(51)
 Connector
 0
@@ -102262,6 +102262,160 @@ THT terminal block Metz Connect Type703_RT10N03HGLU pitch 9.52mm size 28.6x12.5m
 0
 3
 3
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x02_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 2 pins, pitch 9.5mm, size 20.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+2
+2
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x03_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 3 pins, pitch 9.5mm, size 30x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+3
+3
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x04_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 4 pins, pitch 9.5mm, size 39.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+4
+4
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x05_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 5 pins, pitch 9.5mm, size 49x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+5
+5
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x06_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 6 pins, pitch 9.5mm, size 58.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+6
+6
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x07_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 7 pins, pitch 9.5mm, size 68x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+7
+7
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x08_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 8 pins, pitch 9.5mm, size 77.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+8
+8
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x09_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 9 pins, pitch 9.5mm, size 87x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+9
+9
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x10_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 10 pins, pitch 9.5mm, size 96.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+10
+10
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x11_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 11 pins, pitch 9.5mm, size 106x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+11
+11
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x12_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 12 pins, pitch 9.5mm, size 116x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+12
+12
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x02_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 2 pins, pitch 9.5mm, size 20.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+2
+2
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x03_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 3 pins, pitch 9.5mm, size 30x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+3
+3
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x04_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 4 pins, pitch 9.5mm, size 39.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+4
+4
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x05_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 5 pins, pitch 9.5mm, size 49x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+5
+5
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x06_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 6 pins, pitch 9.5mm, size 58.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+6
+6
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x07_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 7 pins, pitch 9.5mm, size 68x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+7
+7
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x08_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 8 pins, pitch 9.5mm, size 77.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+8
+8
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x09_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 9 pins, pitch 9.5mm, size 87x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+9
+9
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x10_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 10 pins, pitch 9.5mm, size 96.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+10
+10
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x11_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 11 pins, pitch 9.5mm, size 106x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+11
+11
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x12_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 12 pins, pitch 9.5mm, size 116x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+12
+12
 TerminalBlock_Philmore
 TerminalBlock_Philmore_TB132_1x02_P5.00mm_Horizontal
 Terminal Block Philmore , 2 pins, pitch 5mm, size 10x10.2mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.philmore-datak.com/mc/Page%20197.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Philmore

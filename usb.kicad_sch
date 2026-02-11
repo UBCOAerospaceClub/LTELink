@@ -2642,16 +2642,6 @@
 		(uuid "ff946bb9-6537-4a25-99b9-1aa5c4d8d2bc")
 	)
 	(label "J9_J5_D-"
-		(at 106.68 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1563f235-0f5c-4135-84f7-d11ea124454e")
-	)
-	(label "J8_D+"
 		(at 90.17 138.43 180)
 		(effects
 			(font
@@ -2659,15 +2649,25 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7ce86392-ac9f-4513-9e03-fdff0d419e72")
+		(uuid "1563f235-0f5c-4135-84f7-d11ea124454e")
 	)
-	(label "J8_D-"
-		(at 90.17 130.81 180)
+	(label "J8_D+"
+		(at 106.68 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "7ce86392-ac9f-4513-9e03-fdff0d419e72")
+	)
+	(label "J8_D-"
+		(at 106.68 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "a8f99825-31e7-4422-96f0-c62877094a53")
 	)
@@ -2712,12 +2712,12 @@
 		(uuid "e02c7185-d5d8-4ee1-aeb0-ea35d58bc390")
 	)
 	(label "J9_J5_D+"
-		(at 106.68 130.81 0)
+		(at 90.17 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ea7651e3-f558-4e0a-8b0e-052ba3e4be0f")
 	)

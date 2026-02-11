@@ -73,6 +73,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 101.6) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f39837-ed1b-430e-a190-ff6b2ae0a29b")
+	)
+	(wire
+		(pts
 			(xy 99.06 116.84) (xy 116.84 116.84)
 		)
 		(stroke
@@ -130,6 +140,16 @@
 			(type default)
 		)
 		(uuid "4bb7a6f4-684e-4363-a3e1-a5f2cec40819")
+	)
+	(wire
+		(pts
+			(xy 170.18 99.06) (xy 176.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab770d4-2e15-4837-9fd0-ce00d549baf2")
 	)
 	(wire
 		(pts
@@ -233,7 +253,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 105.41) (xy 176.53 105.41)
+			(xy 170.18 114.3) (xy 176.53 114.3)
 		)
 		(stroke
 			(width 0)
@@ -303,7 +323,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 107.95) (xy 176.53 107.95)
+			(xy 170.18 111.76) (xy 176.53 111.76)
 		)
 		(stroke
 			(width 0)
@@ -395,9 +415,9 @@
 				(justify left)
 			)
 		)
-		(pin "UART7_RX" input
-			(at 176.53 105.41 180)
-			(uuid "a94cd65f-3b8d-4dfa-add3-21dfd49e5254")
+		(pin "UART9_RX" input
+			(at 176.53 111.76 180)
+			(uuid "c16f1ff3-db4d-47d7-9c22-b40c95fd91b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,9 +425,29 @@
 				(justify left)
 			)
 		)
-		(pin "UART7_TX" output
-			(at 176.53 107.95 180)
-			(uuid "af957bae-fc62-4050-b21c-b79dbe1edad0")
+		(pin "UART9_TX" output
+			(at 176.53 114.3 180)
+			(uuid "4ef3ebf2-e65f-4b91-b6ba-d647d7ff2020")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART5_RX" input
+			(at 176.53 99.06 180)
+			(uuid "543321fb-bff4-4a87-91e8-4c6c98b0f5a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART5_TX" output
+			(at 176.53 101.6 180)
+			(uuid "f97d96ac-25ff-4026-8e50-7dff1911c38e")
 			(effects
 				(font
 					(size 1.27 1.27)

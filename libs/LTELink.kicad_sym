@@ -11266,7 +11266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588904760061120512"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C428485.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11653,6 +11653,24 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -34.29 180)
+				(length 5.08)
+				(name "NUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
 					)
 				)
 			)

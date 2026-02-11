@@ -3376,6 +3376,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 27.94 -34.29 180)
+					(length 5.08)
+					(name "NUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
 			(symbol "MINI PCIE_1_2_0"
 				(rectangle
@@ -4784,6 +4802,12 @@
 		(uuid "97bd2ffc-3d31-43e8-9518-52634d1aec46")
 	)
 	(junction
+		(at 104.14 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e55c6c7-170b-4ea7-b5ea-5e5de59a0509")
+	)
+	(junction
 		(at 104.14 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5159,7 +5183,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 137.16) (xy 104.14 135.89)
+			(xy 104.14 135.89) (xy 104.14 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5376,6 +5400,16 @@
 			(type default)
 		)
 		(uuid "c8ac7a3f-dc01-45e4-a6d5-26fc424cbed7")
+	)
+	(wire
+		(pts
+			(xy 104.14 138.43) (xy 104.14 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdc2305-4b46-4481-95de-c36bc4f53bd5")
 	)
 	(wire
 		(pts
@@ -6021,7 +6055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588904760061120512"
 			(at 76.2 184.15 0)
 			(effects
 				(font
@@ -8323,7 +8357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588904760061120512"
 			(at 76.2 104.14 0)
 			(effects
 				(font
@@ -8563,6 +8597,9 @@
 		)
 		(pin "S1"
 			(uuid "dd61aa4e-c92a-444e-910b-d8fb3e93198b")
+		)
+		(pin "53"
+			(uuid "26be000b-7ab2-4715-90cb-ac6f36df8039")
 		)
 		(instances
 			(project ""
@@ -10239,7 +10276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 137.16 0)
+		(at 104.14 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10248,7 +10285,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc08eb0e-84ac-48e2-855e-09bf011bdf28")
 		(property "Reference" "#PWR12"
-			(at 104.14 143.51 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,7 +10294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 142.24 0)
+			(at 104.14 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +10302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 137.16 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10274,7 +10311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 137.16 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 137.16 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

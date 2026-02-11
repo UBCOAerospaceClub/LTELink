@@ -9438,7 +9438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTELink:DF40HC(3.0)-100DS-0.4V(51)"
+		(property "Footprint" "LTELink:DF40HC(3.0)-100DS-0.4V(51)_mirrored"
 			(at 298.45 60.96 0)
 			(effects
 				(font
