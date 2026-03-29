@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ebd96e19-6f65-4022-a6da-be26c0716f8e")
 	(paper "A4")
 	(title_block
@@ -354,11 +354,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "1f51a8cf-4ed0-4d00-bcb9-e34ac73c8e7e")
 		(property "Sheetname" "uart"
 			(at 176.53 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,6 +370,8 @@
 		)
 		(property "Sheetfile" "uart.kicad_sch"
 			(at 176.53 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,11 +480,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3741df15-31c9-4d03-a649-cf8a42315583")
 		(property "Sheetname" "SD Card"
 			(at 71.12 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,6 +496,8 @@
 		)
 		(property "Sheetfile" "sd_card.kicad_sch"
 			(at 71.12 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,11 +606,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "76b1a870-e345-41cc-887f-c3b81be4cbe1")
 		(property "Sheetname" "Ethernet"
 			(at 181.61 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,6 +622,8 @@
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
 			(at 181.61 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,11 +702,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "9ae95502-5895-429a-9658-dcc355299464")
 		(property "Sheetname" "USB"
 			(at 71.12 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,6 +718,8 @@
 		)
 		(property "Sheetfile" "usb.kicad_sch"
 			(at 71.12 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,11 +808,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b24baf21-5816-49e9-9ae3-74bfac20cf13")
 		(property "Sheetname" "EC25"
 			(at 71.12 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -806,6 +824,8 @@
 		)
 		(property "Sheetfile" "EC25.kicad_sch"
 			(at 71.12 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,11 +924,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ea7282f8-f7da-4c85-804f-2846e880a5d1")
 		(property "Sheetname" "Compute Module"
 			(at 116.84 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,6 +940,8 @@
 		)
 		(property "Sheetfile" "compute_module.kicad_sch"
 			(at 116.84 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
