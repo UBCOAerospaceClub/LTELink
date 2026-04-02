@@ -65,7 +65,24 @@
           "width": 0.1
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|233775000|94275000|4706f974-e036-4fc8-be36-233b5a4d4d71|d01885b7-343c-4fc5-81ea-14ad897e1c90",
+          ""
+        ],
+        [
+          "copper_edge_clearance|166700000|63997750|43c56d28-89e2-4e3b-9cd2-7cb5414e01c0|b8295a46-a51f-4911-8066-ba3756c95b2a",
+          ""
+        ],
+        [
+          "copper_edge_clearance|172532421|63997750|658d619c-97e8-4044-80e7-af8d1b95b5ac|1085a53b-7373-4436-8131-d5a57b3dd1c4",
+          ""
+        ],
+        [
+          "solder_mask_bridge|233775000|94275000|d01885b7-343c-4fc5-81ea-14ad897e1c90|4706f974-e036-4fc8-be36-233b5a4d4d71",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -530,6 +547,7 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.1628,
         "name": "Ethernet",
@@ -539,6 +557,7 @@
         "tuning_profile": ""
       },
       {
+        "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.2223,
         "name": "USB",
@@ -556,11 +575,11 @@
     "netclass_patterns": [
       {
         "netclass": "Ethernet",
-        "pattern": "*RXI*"
+        "pattern": "/Ethernet/RX*"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "*TXO*"
+        "pattern": "/Ethernet/TX*"
       },
       {
         "netclass": "USB",
@@ -569,6 +588,14 @@
       {
         "netclass": "USB",
         "pattern": "*D-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Compute Module/TX*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Compute Module/RX*"
       }
     ]
   },
@@ -820,7 +847,7 @@
         "uuid": "ebd96e19-6f65-4022-a6da-be26c0716f8e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D9-15,TP1-2,J5,RJ1",
     "variants": []
   },
   "sheets": [

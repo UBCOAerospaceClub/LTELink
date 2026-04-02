@@ -1697,7 +1697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTELink:XKTF015N"
+		(property "Footprint" "LTELink:TF-SMD_TF-009"
 			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
