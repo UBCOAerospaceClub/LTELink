@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Ethernet Breakout") (type "KiCad") (uri "${KIPRJMOD}/Ethernet Breakout.pretty") (options "") (descr ""))
+)
