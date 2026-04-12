@@ -9803,7 +9803,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0d782762-5f8a-4db1-b87f-3a69f3d92137")
 		(property "Reference" "D11"
 			(at 261.112 73.406 0)
@@ -9825,7 +9825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 261.62 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13659,7 +13659,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "613ded33-2c13-4dc3-8db5-2b1c7e7f9eaf")
 		(property "Reference" "D15"
 			(at 261.112 103.886 0)
@@ -13681,7 +13681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 261.62 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14289,7 +14289,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7093b1d1-d822-4a64-a37b-e06daeaddfad")
 		(property "Reference" "D12"
 			(at 261.112 81.026 0)
@@ -14311,7 +14311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 261.62 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17790,7 +17790,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d373253e-c5d9-4a6a-8361-2cdbe3ecacb7")
 		(property "Reference" "D14"
 			(at 261.112 96.266 0)
@@ -17812,7 +17812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 261.62 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -18487,7 +18487,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dbec0b68-81ad-45a9-ad6a-b17b17efbf3a")
 		(property "Reference" "D13"
 			(at 261.112 88.646 0)
@@ -18509,7 +18509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 261.62 91.44 0)
 			(hide yes)
 			(show_name no)

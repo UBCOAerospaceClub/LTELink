@@ -8224,7 +8224,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7258b973-7ce2-4644-921a-97f8a2acee28")
 		(property "Reference" "D9"
@@ -8249,7 +8249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 266.7 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10108,7 +10108,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b99a7601-afdb-40ba-9245-416b04f554ec")
 		(property "Reference" "D10"
@@ -10131,7 +10131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 177.8 0)
 			(hide yes)
 			(show_name no)
