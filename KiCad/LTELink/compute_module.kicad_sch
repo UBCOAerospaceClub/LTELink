@@ -6858,10 +6858,6 @@
 		(uuid "60843a76-1e19-4601-b0bd-6720610f7403")
 	)
 	(no_connect
-		(at 132.08 104.14)
-		(uuid "61a0bbd1-5f7c-4420-88a8-601ebf545fc3")
-	)
-	(no_connect
 		(at 290.83 147.32)
 		(uuid "6571e2db-04a3-421a-8fbc-bfb25e273c7f")
 	)
@@ -9301,6 +9297,17 @@
 			(justify left)
 		)
 		(uuid "e1c8b181-88e4-4bb4-93d9-bf86776a2a42")
+	)
+	(hierarchical_label "PWM11"
+		(shape input)
+		(at 132.08 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea773f60-0908-4fe0-8e6c-85b90d548eb0")
 	)
 	(symbol
 		(lib_id "power:GND")

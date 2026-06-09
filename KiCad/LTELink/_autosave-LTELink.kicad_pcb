@@ -11820,7 +11820,7 @@
 		(at 182.1 77.8)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP2"
+		(property "Reference" "RX5"
 			(at -2.8 0 0)
 			(layer "F.SilkS")
 			(uuid "5c57aa28-6a26-4ca0-b5ac-a7ac44fc6d40")
@@ -18326,7 +18326,7 @@
 		(at 182.1 73.1)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP1"
+		(property "Reference" "TX5"
 			(at -2.7 0 0)
 			(layer "F.SilkS")
 			(uuid "673561fe-8ecd-49bc-8d03-928e96b7441a")

@@ -9904,7 +9904,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0e7276fd-33ce-43dc-be41-31318f2f55da")
 		(property "Reference" "C34"
 			(at 346.71 116.84 90)
@@ -9926,7 +9926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 350.52 112.0648 0)
 			(hide yes)
 			(show_name no)
@@ -11085,7 +11085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 336.55 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -11109,6 +11109,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 336.55 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C4275"
+			(at 336.55 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12926,7 +12937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 336.55 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -12950,6 +12961,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 336.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C4275"
+			(at 336.55 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14799,7 +14821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 336.55 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -14823,6 +14845,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 336.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C4275"
+			(at 336.55 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16938,7 +16971,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b6e7f77d-a19f-4f89-8a5e-789885ae557a")
 		(property "Reference" "C15"
 			(at 346.71 81.28 90)
@@ -16960,7 +16993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 350.52 76.5048 0)
 			(hide yes)
 			(show_name no)
@@ -17274,7 +17307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 336.55 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -17298,6 +17331,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 336.55 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C4275"
+			(at 336.55 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17633,7 +17677,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cb993718-bf3e-42ac-8a8b-2e92f7a51259")
 		(property "Reference" "C32"
 			(at 346.71 99.06 90)
@@ -17655,7 +17699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 350.52 94.2848 0)
 			(hide yes)
 			(show_name no)
@@ -19047,17 +19091,6 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C2904733"
-			(at 313.69 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 313.69 87.63 0)
 			(hide yes)
@@ -19069,7 +19102,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "H4001CG"
+		(property "LCSC Part #" "H4001CG"
 			(at 313.69 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20581,7 +20614,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f9ee9726-51f6-4ee6-b0ce-62542b38d704")
 		(property "Reference" "C14"
 			(at 346.71 63.5 90)
@@ -20603,7 +20636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 350.52 58.7248 0)
 			(hide yes)
 			(show_name no)

@@ -13,6 +13,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 170.18 62.23) (xy 177.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0095c512-5bb8-4ea7-831a-054ffef694be")
+	)
+	(wire
+		(pts
 			(xy 170.18 146.05) (xy 181.61 146.05)
 		)
 		(stroke
@@ -300,6 +310,62 @@
 			(type default)
 		)
 		(uuid "ffb5ae5a-b1f5-42b8-8f07-b1970748f621")
+	)
+	(sheet
+		(at 177.8 50.8)
+		(size 31.75 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "03b09664-c675-40bf-81e2-99ec19cc7417")
+		(property "Sheetname" "pwm"
+			(at 177.8 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm.kicad_sch"
+			(at 177.8 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "fan_pwm" input
+			(at 177.8 62.23 180)
+			(uuid "b0e75e84-87e2-4565-9586-fe19a2b8a53a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LTELink"
+				(path "/ebd96e19-6f65-4022-a6da-be26c0716f8e"
+					(page "8")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 176.53 77.47)
@@ -1237,6 +1303,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PWM11" input
+			(at 170.18 62.23 0)
+			(uuid "608a3a38-5f99-488c-946e-d652f52e5aec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

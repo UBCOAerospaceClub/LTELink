@@ -825,6 +825,12 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -883,7 +889,7 @@
         "uuid": "ebd96e19-6f65-4022-a6da-be26c0716f8e"
       }
     ],
-    "used_designators": "RJ1,J5,TP1-2,D9-15",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -914,6 +920,10 @@
     [
       "3741df15-31c9-4d03-a649-cf8a42315583",
       "SD Card"
+    ],
+    [
+      "03b09664-c675-40bf-81e2-99ec19cc7417",
+      "pwm"
     ]
   ],
   "text_variables": {},
